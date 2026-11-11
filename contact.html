@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Your Name">
+        <meta name="description" content="Contact Page">
+        <link rel="icon" href="img/ava-kresti.png" type="image/png">    
+        <title>Contact | Your Name</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="logo" href="index.html">Your Name</a>
+            <nav></nav><nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <h1>Contact</h1>
+            <p>Have a project in mind or just want to say hello? 
+                Send me a message and I will reply within two business days.</p>
+
+            <section class="contact-form-section">
+                <form action="#" method="post">
+                    <p>
+                        <label for="full-name">Name</label><br>
+                        <input id="full-name" type="text" placeholder="Your full name" required>
+                    </p>
+
+                    <p>
+                        <label for="mail">Email</label><br>
+                        <input id="mail" type="email" placeholder="you@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="subj">Subject</label><br>
+                        <input id="subj" type="text" placeholder="What is this about?">
+                    </p>
+
+                    <p>
+                        <label for="reason">Reason for contact</label><br>
+                        <select name="reason" id="reason">
+                            <option value="job">Job opportunity</option>
+                            <option value="freelance">Freelance project</option>
+                            <option value="question">General question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" rows="6" cols="40"
+                         placeholder="Write your message here..." required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send Message</button>
+                    </p>
+                </form>
+            </section>
+            <aside class="contact-details">
+                <h2>Other Ways to Reach Me</h2>
+                <ul>
+                    <li>Email: <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a></li>
+                    <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; all rights reserved 2026</p>
+        </footer>
+    </body>
+</html>
